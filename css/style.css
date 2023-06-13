@@ -22,8 +22,20 @@ h1{
     padding-bottom: 30px;
 }
 .button-section{
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 15px;
     border-bottom: 1px solid lightgrey;
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: lightgray;
+    font-weight: bold;
+}
+.first-button{
+    background-color: rgb(79, 184, 233);
+    color: white;
 }
 
 section{
@@ -31,11 +43,19 @@ section{
     padding-top: 30px;
 }
 .done{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     border: 1px solid green;
     color: green;
     border-radius: 50%;
 }
 .not-done{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     border: 1px solid red;
     color: red;
     border-radius: 50%;
@@ -44,7 +64,7 @@ section{
     display: inline-block;
     width: 100px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 50px;
     text-align: center;
     line-height: 30px;
     color: white;
